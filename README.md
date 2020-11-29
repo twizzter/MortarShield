@@ -17,3 +17,5 @@ Shield is meant to be powered from 12V supply, but should work within 8-15V rang
 <br/>Stellarium gets position and time from embedded GPS module. Any NMEA-compatible GPS module will work as well, just connect UART to R12/R13.
 <br/>Since RPi GPIOs are prone to damage, board is equipped with protection components (220R/double schottky)
 <br/>You don't have to populate them if you're not planning to do experiments with board.
+# PCB
+Uploaded zip contains gerber and drill data - all you need to make your own board from any PCB manufacturer. I recommend 1.55mm thickness, green soldermask and HASL finish, as those are usually the cheapest options.
